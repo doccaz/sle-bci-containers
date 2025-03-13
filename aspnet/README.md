@@ -39,4 +39,11 @@ And that's it.
 Original sources come from: https://github.com/dotnet/dotnet-docker/tree/main/samples
 
 
+# Windows-native deployment
+
+If you wish to run a native Windows deployment on a Windows node, use the file *hello-world-windows.yaml". 
+
+This is the exact same application (aspnet), but using a Windows Core image.
+
+Just run a "kubectl apply -f" on it, or import the YAML in Rancher.
 
